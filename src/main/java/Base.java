@@ -15,14 +15,16 @@ public class Base {
             System.out.println("Enter the second number: "); //запрашиваем второе число
             float b = scanner.nextFloat(); //получаем второе число из консоли
             System.out.println("Enter operation: "); //запрашиваем действие, пока только сложение
-            String operation = scanner.next(); //получаем операцию из консоли
+            char operation = scanner.next().charAt(0); //получаем операцию из консоли
             float result=0; //результат действий калькулятора
-            if (operation.equals("+")){
-                result=a+b;
-                System.out.printf("Sum is %.4f", result); //выводим в консоль сумму чисел в формате дробного числа с округлением до 4х знаков
-            }else{
-                System.out.println("incorrect operation entered"); //выводим сообщение о неверной операции
+
+            switch(operation) {
+                case '+': result = a + b;
+                    break;
+                default:  System.out.println("incorrect operation entered"); //выводим сообщение о неверной операции
+                    return;
             }
+            System.out.printf("Sum is %.4f", result); //выводим в консоль сумму чисел в формате дробного числа с округлением до 4х знаков
 
             scanner.close();
         }
