@@ -37,6 +37,8 @@ public class Task4_1 {
         for (int i=0;i<mass.length;i++){
             System.out.print(mass[i]+" "); //выводим новый массив
         }
+        System.out.println("\nМаксимальное отрицательное число в массиве: "+max);
+        System.out.println("Минимальное положительное число в массиве: "+min);
     }
 
 }
