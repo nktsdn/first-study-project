@@ -35,13 +35,13 @@ public class Calc {
                 result = operation.getResult(a, b);
                 break;
             default:
-                System.out.println("Введена некорректная операция"); //выводим сообщение о неверной операции
+                System.err.println("Введена некорректная операция"); //выводим сообщение о неверной операции
                 return;
         }
         System.out.printf("Результат: %.4f", result); //выводим в консоль результат в формате дробного числа с округлением до 4х знаков
         scanner.close();
         } catch (Exception e) {
-            System.out.println("incorrect values entered"); //ловим исключение, если пользователь ввел некорректные значения, то выводим ошибку
+            System.err.println("incorrect values entered"); //ловим исключение, если пользователь ввел некорректные значения, то выводим ошибку
         }
     }
 }
