@@ -1,6 +1,6 @@
 package Task8;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Company {
     private String name;
@@ -9,7 +9,7 @@ public class Company {
     private String inn;
     private String ogrnip;
     private String foundation_date;
-    private ArrayList<Securities> securities;
+    private List<Securities> securities;
 
     public String getName() {
         return name;
@@ -35,7 +35,7 @@ public class Company {
         return foundation_date;
     }
 
-    public ArrayList<Securities> getSecurities() {
+    public List<Securities> getSecurities() {
         return securities;
     }
 }

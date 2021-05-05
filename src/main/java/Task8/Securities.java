@@ -6,7 +6,7 @@ public class Securities {
     private String code;
     private String name;
     private String date_start;
-    private String  date_end;
+    private String date_end;
     private String currency;
 
     public int getId() {
