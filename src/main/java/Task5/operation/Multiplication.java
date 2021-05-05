@@ -1,7 +1,7 @@
 package Task5.operation;
 
 public class Multiplication extends Operation {
-    public float getResult(float a, float b){
+    public double getResult(double a, double b){
         return a*b;
     }
 }

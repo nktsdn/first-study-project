@@ -1,0 +1,96 @@
+[
+	{
+		"name": "ООО Рога и копыта",
+		"address": "Ленина 53",
+		"phone": "+79998887755",
+		"inn": "262595098093",
+		"ogrnip": "7417445359751",
+		"foundation_date": "2000-10-03",
+		"securities": [
+			{
+				"id": 1,
+				"code": "V",
+				"name": "VISA",
+				"date_start": "2010-01-01",
+				"date_end": "2015-12-31",
+				"currency": "USD"
+			},
+			{
+				"id": 2,
+				"code": "SBER",
+				"name": "СберБанк",
+				"date_start": "2011-01-01",
+				"date_end": "2030-12-31",
+				"currency": "RUB"
+			},
+			{
+				"id": 3,
+				"code": "ROSN",
+				"name": "Роснефть",
+				"date_start": "2012-01-01",
+				"date_end": "2031-12-31",
+				"currency": "RUB"
+			}
+		]
+	},
+	{
+		"name": "ООО Зеленоглазое такси",
+		"address": "Мушктерная 230",
+		"phone": "+79993337744",
+		"inn": "179213269380",
+		"ogrnip": "7348107834346",
+		"foundation_date": "1990-11-13",
+		"securities": [
+			{
+				"id": 4,
+				"code": "AAPL_SPB",
+				"name": "APPLE",
+				"date_start": "2010-01-01",
+				"date_end": "2017-12-31",
+				"currency": "USD"
+			},
+			{
+				"id": 2,
+				"code": "SBER",
+				"name": "СберБанк",
+				"date_start": "2011-01-01",
+				"date_end": "2030-12-31",
+				"currency": "RUB"
+			},
+			{
+				"id": 6,
+				"code": "ROSN",
+				"name": "Роснефть",
+				"date_start": "2012-01-01",
+				"date_end": "2031-12-31",
+				"currency": "RUB"
+			}
+		]
+	},
+	{
+		"name": "ООО РосТехДорТрансЖелСтройАльянс",
+		"address": "Промышленная 10А",
+		"phone": "+79553332241",
+		"inn": "613191109336",
+		"ogrnip": "2134371131192",
+		"foundation_date": "2005-01-01",
+		"securities": [
+			{
+				"id": 4,
+				"code": "AAPL_SPB",
+				"name": "APPLE",
+				"date_start": "2010-01-01",
+				"date_end": "2017-12-31",
+				"currency": "USD"
+			},
+			{
+				"id": 7,
+				"code": "RTKM",
+				"name": "Ростелеком",
+				"date_start": "2012-01-01",
+				"date_end": "2019-12-31",
+				"currency": "RUB"
+			}
+		]
+	}
+]

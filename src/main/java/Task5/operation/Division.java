@@ -1,7 +1,7 @@
 package Task5.operation;
 
 public class Division extends Operation {
-    public float getResult(float a, float b) throws ArithmeticException {
+    public double getResult(double a, double b) throws ArithmeticException {
         if (b!=0) {
             return a / b;
         }else{
